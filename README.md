@@ -2,7 +2,9 @@
 
 The NBA statistic "RAPTOR" stands for **R**obust **A**lgorithm (using) **P**layer **T**racking (and) **O**n/**O**ff **R**atings. This is a plus/minus statistic that measures a player’s point contribution to his team based on offensive and defensive contributions per 100 possessions. There are two major components when calculating a player’s RAPTOR score. The first component is the “box” component which uses a player’s individual statistics. The second component is the “on-off” component which evaluates a team’s performance when the player and combinations of his teammates are on or off the floor. As a descriptive statistic, RAPTOR is calculated solely based on a player’s on-court performance and the performance of the player’s teammates.
 
-The research question to answer is "What effect do different categories of statistics have on NBA's newly implemented RAPTOR score." We decided to explore this research question because of the interest in how data analytics works in the sports industry (specifically the NBA) and to analyze the NBA with a statistical business perspective rather than an entertainment perspective. Python was used to read and merge the datasets from _NBAStuffer_ and _FiveThirtyEight_,
+The research question to answer is "What effect do different categories of statistics have on NBA's newly implemented RAPTOR score." We decided to explore this research question because of the interest in how data analytics works in the sports industry (specifically the NBA) and to analyze the NBA with a statistical business perspective rather than an entertainment perspective. Python was used to read and merge the datasets from _NBAStuffer_ and _FiveThirtyEight_, clean the data (missing values, outliers, dropping and renaming columns), visualize, transform, scale the data, and create linear regression models. 
+
+The results showed that advanced statistics does the best at predicting the RAPTOR score, then individual-drive statistics, then team-driven non-scoring statistics, and lastly the box score statistics. 
 
 
 
