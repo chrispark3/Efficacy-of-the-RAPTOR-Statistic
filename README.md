@@ -10,3 +10,5 @@ Initially we made a hypothesis that the team-driven statistics would overshadow 
 
 The main beneficiaries of this project are sports managers and coaches. General team managers can use the model’s results to see which players to recruit or trade while coaches can see which game strategy to use. For example, team managers would want to sign certain players that are determined to bring the most value to the team. As for coaches, they can decide on a certain style of play or determine which players to give more playing time. Other groups that would benefit include stakeholders and gamblers. Stakeholders and gamblers can use these models to see which team to invest their money in before the season even starts.
 
+#### The full analysis can be found in _RAPTOR Paper.pdf_ and its respective Python code in _NBA RAPTOR Model.ipynb_
+#### Other files included are the datasets (.csv)
